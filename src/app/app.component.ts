@@ -36,7 +36,7 @@ export class AppComponent implements OnInit {
     }
 
     ngOnInit() {
-
+debugger
         //const htmlElement = createCustomElement(CourseTitleComponent, {injector:this.injector});
 
         //customElements.define('course-title', htmlElement);
@@ -46,6 +46,7 @@ export class AppComponent implements OnInit {
     onEditCourse() {
 
             this.courses[1].category = 'ADVANCED';
+            debugger
 
     }
 
